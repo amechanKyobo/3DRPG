@@ -57,7 +57,7 @@
          for (var z = 0; z < len; z++) {
            if (map[x][y][z] == 0) continue;
            // console.log("x : " + x + " y : " + y + " z : " + z);
-            my.utlWebGL.drwSquare(this.trgt, [x - len / 2, y, z - len / 2], this.camPos, {x: aglX, y: aglY}, "cubetexture.png");
+            my.utlWebGL.drwSquare(this.trgt, [x - len / 2, y, z - len / 2], this.camPos, {x: aglX, y: aglY}, "../cubetexture.png");
          }
        }
      }
