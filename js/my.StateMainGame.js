@@ -17,7 +17,13 @@
      let $SP = rpg.$SP;
 
      // ワールド描画アイテム
-     this.itms.push(new my.ItemWorld({trgt: $SP.lyrs[my.lyr.wd].gl}));
+     // this.itms.push(new my.ItemWorld({trgt: $SP.lyrs[my.lyr.wd].gl}));
+    
+    let img = new Image();
+     img.onload = function() {
+       $SP.lyrs[4].cntxt.drawImage(img, 0, 0);
+     }
+     img.src = "img/cubetexture.png";
 
      // ハンド描画アイテム
      // this.itms.push(new my.ItemChrHnd({
