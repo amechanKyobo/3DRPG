@@ -75,7 +75,7 @@
 
      if (e.typ == "mou") {
        // マウス入力イベント
-//        this.mouEvnt(e);
+       //this.mouEvnt(e);
      } else if (e.typ == "key") {
        // キーボード入力イベント
        this.keyEvnt(e);
